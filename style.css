@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/b/b6/Sebastiano_Ricci_002.jpg);
+    background-attachment:fixed; 
+    background-size:cover;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #1b1b1b;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.contact {
+    margin-left: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #e9e9e9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #181818;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 70vh !important;
+    background: none;
+    background-attachment:fixed; 
+    background-size:cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #b8dcff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #276cb0;
+    color: #0a2565;
+    text-decoration: none;
+    background: #2772b0;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.black-section {
+    background: #1b1b1b;
+}
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+
+    padding: 100px;
+    background: #191919 no-repeat;
+    background-attachment: fixed;
+    display:block;
+    block-size: 70px;
+    padding: 60px 60px;
+ }
+
+ .box-container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+ }
+
+ .box-container1 .box {
+    height: 11rem;
+    width: 17rem;
+    background: #5c0202;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(93, 126, 150, 0.53);
+    margin: 2rem;   
+ }
+
+ .box-container1 .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #0e2b84;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+ }
+
+ .box-container1 .box h3 {
+    font-size: 20px;
+    color: #2752b0;
+
+ }
+
+ .box-container1 .box p {
+    padding: 0 15px;
+    font-size: 16px;
+ }
+
+ .content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: none;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+ }
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #122665;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem #5c0202(93, 126, 150, 0.53);
+    margin: 2rem;   
+ }
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #5c0202;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+ }
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #2752b0;
+
+ }
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+ }
+
+.about {
+    background: #6db4e7;
+ }
+
+    
+
+
